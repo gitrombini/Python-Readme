@@ -28,12 +28,11 @@ else:
 
 
 
-Consumindo a API Star Wars e salvando em arquivos JSON:
+# Consumindo a API Star Wars e salvando em arquivos JSON:
 
 import requests
 import json
 
-# Função para obter os personagens que aparecem em 4 ou mais filmes
 def get_popular_characters():
     url = "https://swapi.dev/api/people/"
     popular_characters = []
